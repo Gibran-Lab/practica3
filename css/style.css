@@ -2,12 +2,35 @@ html{
 	font-size: 62.5%;
 }
 body{
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-family: 'Lato', sans-serif;
+	line-height: 2;
 }
 
 
 /*Globales*/
+h1{
+	font-size: 3.8rem;
+}
+h2{
+	font-size: 3.4rem;
+}
+h3{
+	font-size: 3rem;
+}
+h4{
+	font-size: 2.6rem;
+}
+/*Utilidades*/
+
+.fw-300{
+	font-weight: 300;
+}
+
+.centrar-texto{
+	text-align: center;
+}
+
 .contenedor{
 	max-width: 120rem;
 	margin: 0 auto;
@@ -54,4 +77,21 @@ height: 100%;
 
 .navegacion a:last-of-type{
 	margin: 0;
+}
+
+
+/*Iconos */
+
+.iconos-nosotros{
+	display: flex;
+	justify-content: space-between;
+}
+
+.icono{
+	flex-basis: calc(33.3% - 1rem);
+	text-align: center;
+}
+
+.icono h3{
+	text-transform: uppercase;
 }
