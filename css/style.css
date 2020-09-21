@@ -1,7 +1,15 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.8rem;
+	font-family: 'Lato', sans-serif;
+}
+
 
 /*Globales*/
 .contenedor{
-	max-width: 1200px;
+	max-width: 120rem;
 	margin: 0 auto;
 }
 
@@ -9,15 +17,28 @@
 .site-header.inicio{
 	background-image: url(../img/header.jpg);
 	height: 100vh;
-	min-height: 600px;
+	min-height: 60rem;
 	background-position: center center;
 	background-size: cover;
+}
+
+.contenido-header{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+}
+
+.contenido-header h1{
+	color: white;
+	padding-bottom: 2rem;
+	max-width: 60rem;
 }
 
 .barra{
 	display: flex;
 	justify-content: space-between;	
-	padding-top: 30px; 
+	padding-top: 3rem; 
     align-items: center;
 }
 
@@ -27,7 +48,7 @@
 .navegacion a{
 	color: white;
 	text-decoration: none;
-	margin-right: 20px;
+	margin-right: 2rem;
 
 }
 
